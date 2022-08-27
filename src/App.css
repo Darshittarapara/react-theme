@@ -1,0 +1,256 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.parent_control_block {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.parent_control_block .Navbar ul{
+  margin-left: -20px;
+  margin-top: 20px;
+}
+.parent_control_block .Navbar ul li {
+  display: inline-block;
+  margin: 0px 6px;
+  font-size: 20px;
+}
+.center_contain {
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.checked {
+  color: orange;
+}
+.center_contain .menu {
+  width: 67%;
+  margin: 0px 10px;
+}
+.sideparent h2 {
+  text-align: center;
+}
+.review_parent{
+  margin-top:60px;
+  text-align: center;
+}
+.review_contain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.review_contain  .review_child {
+  width: 50%;
+  padding: 26px 10px;
+ 
+  height: 300px;
+  margin: 20px 16px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.1);
+}
+.footer {
+  margin-top: 30px;
+}
+.Footer_parent {
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: rgb(70, 53, 53);
+height: 300px;
+}
+.Footer_parent .link ul li{
+list-style-type: none;
+color: white;
+}
+
+.Footer_parent  span {
+  margin: 0px 10px;
+  font-size: 20px;
+color: black;
+}
+.company_logo {
+  background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('./back.jpg');
+  height: 500px;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+}
+.company_logo h2 {
+  color: white;
+}
+.company_logo h4 {
+  font-size: 1.5em;
+  margin-top: -5px;
+  letter-spacing: 2px;
+}
+.project_contain{
+  padding: 3px 30px;
+  text-align: center;
+}
+.project_contain h2{
+  font-size: 1.7em;
+  
+}
+.project_contain .common_pro{
+  margin: 15px 0px;
+}
+.project_contain .common_pro div {
+  margin: 5px 0px;
+  font-size: 1.2em;
+}
+.project_contain .common_pro div  ul li {
+  list-style-type: none;
+  display: block;
+  margin: 7px 0px;
+}
+.project_contain .common_pro div  ul li span {
+  margin: 0px 4px;
+}
+.all_contain .block_contain {
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+.all_contain .block_contain img{
+  float: left;
+  margin: 0px 10px;
+  border-radius: 15px;
+}
+.all_contain .block_contain .intro {
+padding: 10px 20px;
+font-size: 1.2em;
+margin: 0px 7px;
+letter-spacing: 1px;
+
+}
+.form_block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+  margin: 20px 0px;
+}
+.display {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 1.7em;
+  color: black;
+  position: relative;
+  bottom: 10px;
+}
+.form_block  form table  tbody .table input {
+  margin: 10px 0px;
+  padding: 10px 30px;
+}
+.link_component  .all_contain .block_contain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.link_component  .all_contain .block_contain  .mydetails div {
+  margin: 17px 0px;
+  
+}
+.link_component  .all_contain .block_contain  .mydetails div  i{
+  font-size: 20px;
+}
+.link_component  .all_contain .block_contain  .mydetails div  i span {
+  margin: 0px 7px;
+  padding: 0px 10px;
+}
+.serive{
+  margin-top: 60px;
+}
+.serive h2 {
+  font-size: 1.8em;
+  text-align: center;
+  margin: 16px 0px;
+} 
+.service_contain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+
+}
+.service_contain div {
+  text-align: center;
+  margin: 10px 10px;
+  height: 200px;
+  padding: 10px 20px;
+  box-shadow: 0px 0px 20px  10px rgba(0, 0, 0, 0.1);
+}
+.common {
+  margin-top: 30px;
+}
+.client_contain {
+  margin-top: 20px;
+}
+.client {
+  margin-top: 60px;
+}
+.client h2{
+  text-align: center;
+} 
+.client .client_contain{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.client div img {
+  width: 100px;
+  height: 40px;
+}
+.service_contain div h3{
+  font-size: 1.4em;
+margin: 8px 0px;  
+} 
+.service_contain div h4 {
+  padding: 0px 6px;
+  margin-bottom: 10px;
+}
+
+
+.service_contain div  img {
+  width: 50px;
+  height: 50px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
